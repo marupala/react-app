@@ -1,0 +1,12 @@
+/* move the user icon to the right */
+.user {
+  margin-left: auto;
+}
+
+.navbar{
+    background-color: #bd6969;
+    color: rgb(49, 26, 26);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+

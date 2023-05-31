@@ -1,0 +1,82 @@
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #a8abd6;
+  color: rgb(20, 15, 15);
+  flex-direction: column;
+}
+
+.main-header{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.create-form label{
+  color: whitesmoke !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* place the navbar in the top of the page */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+/* style the navigation bar */
+
+.navbar {
+  float: left;
+  display: block;
+  color: rgb(189, 151, 151);
+  background-color: rgb(211, 168, 168);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* change color on hover */
+.navbar:hover {
+  background-color: #b68787;
+  color: rgb(175, 127, 127);
+}
+
+/*add botstrap*/
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+
+/*style the update and delete button*/
+.btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/*style the text class*/
+
+.text {
+  background-color:#a8abd6;
+  border: none;
+  color: rgb(20, 9, 9);
+  padding: 12px 16px;
+  font-size: 35px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* place the text class below the navbar */
+.text {
+  position: fixed;
+  top: 80px;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+}
