@@ -17,7 +17,7 @@ export default function Navbar() {
             <Link to="/read">
               <Menu.Item name="read" className="orange active item" />
             </Link>
-            <Link to="/">
+            <Link to="/home">
               <Menu.Item name="Home" className="green active item" />
             </Link>
           </div>
@@ -32,6 +32,9 @@ export default function Navbar() {
               />
               Jaswanth B S
             </Label>
+            <Link to="/">
+              <button className="ui inverted red button">Logout</button>
+            </Link>
           </div>
         </Menu>
       </Segment>

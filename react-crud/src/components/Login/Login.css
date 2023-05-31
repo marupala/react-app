@@ -1,0 +1,8 @@
+/* increase the width of the login class */ 
+
+.login {
+  width: 300px;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 10px;
+}
