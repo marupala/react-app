@@ -1,8 +1,11 @@
-/* increase the width of the login class */ 
+/* align the login class to the center of the page */
 
 .login {
-  width: 300px;
-  margin: 0 auto;
-  font-size: 20px;
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #a8abd6;
+  color: rgb(20, 15, 15);
+  flex-direction: column;
 }
