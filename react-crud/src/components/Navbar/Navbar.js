@@ -21,9 +21,6 @@ export default function Navbar() {
               <Menu.Item name="Home" className="green active item" />
             </Link>
           </div>
-          <div className="text">
-            <p>PRODUCT CATALOG</p>
-          </div>
           <div className="user">
             <Label as="a">
               <img

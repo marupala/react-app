@@ -2,10 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 60vh;
     background-color: #a8abd6;
     color: rgb(20, 15, 15);
-    flex-direction: column;
   }
   
   .main-header{
@@ -17,6 +16,11 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 12px !important;
   }
+
+  /* make the whole page background color to lavender */
+body {
+  background-color: #a8abd6;
+}
 
 
   
