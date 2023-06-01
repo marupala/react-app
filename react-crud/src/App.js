@@ -5,7 +5,6 @@ import Update from "./components/Update/Update";
 import Create from "./components/Create/Create";
 import Search from "./components/Search/Search";
 import Login from "./components/Login/Login";
-import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
