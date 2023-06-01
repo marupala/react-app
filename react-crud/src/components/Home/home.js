@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="main">
+      <div className="home">
         <Card>
           <Image
             src="https://react.semantic-ui.com/images/avatar/large/matthew.png"
