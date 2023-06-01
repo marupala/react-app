@@ -50,7 +50,7 @@ export default function Search() {
   return (
     <>
       <Navbar />
-      <div className="main">
+      <div className="searchpage">
         <div className="ui search">
           <div className="ui icon input">
             <input
